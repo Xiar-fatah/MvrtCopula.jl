@@ -1,5 +1,9 @@
 module MvrtCopula
-
-# Write your package code here.
-
+# Packages
+using Distributions
+using LinearAlgebra
+# files
+include("archmCopula.jl")
+# functions
+export(claytonCopula)
 end

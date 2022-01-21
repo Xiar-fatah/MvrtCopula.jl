@@ -3,8 +3,13 @@ uuid = "641052cf-37c8-4a2d-8238-0ae6ac39fb57"
 authors = ["Kiar Fatah"]
 version = "0.1.0"
 
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [compat]
 julia = "1.7"
+Distributions = "v0.25.40"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
